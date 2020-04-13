@@ -33,4 +33,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,homeworkActivity2.class);
         startActivity(intent);
     }
+    public void homework_3(View view) {
+        Intent intent = new Intent(this, HomeworkActivity3.class);
+        startActivity(intent);
+
+    }
+    public void homework_4(View view) {
+        Intent intent = new Intent(this, HomeworkActivity4.class);
+        startActivity(intent);
+    }
 }
